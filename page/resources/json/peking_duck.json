@@ -1,0 +1,130 @@
+[
+  {
+    "id": "duck_raw",
+    "en": "Whole Raw Duck",
+    "vi": "Vịt nguyên con sống",
+    "col": 0,
+    "row": 0,
+    "nanobana_prompt": "A cute 2D game UI icon of a whole cleaned raw duck, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "duck_spices",
+    "en": "Five Spice Powder",
+    "vi": "Ngũ vị hương",
+    "col": 1,
+    "row": 0,
+    "nanobana_prompt": "A cute 2D game UI icon of a small pile of aromatic brown spice powder, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "duck_maltose",
+    "en": "Maltose Syrup",
+    "vi": "Mạch nha",
+    "col": 2,
+    "row": 0,
+    "nanobana_prompt": "A cute 2D game UI icon of a jar of thick golden maltose syrup with a wooden dipper, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "duck_air_pump",
+    "en": "Air Pump",
+    "vi": "Bơm hơi tách da",
+    "col": 3,
+    "row": 0,
+    "nanobana_prompt": "A cute 2D game UI icon of a vintage hand air pump, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "duck_hanging",
+    "en": "Hanging Duck",
+    "vi": "Vịt treo khô",
+    "col": 0,
+    "row": 1,
+    "nanobana_prompt": "A cute 2D game UI icon of a duck hanging on a metal hook, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "duck_oven",
+    "en": "Stone Oven",
+    "vi": "Lò quay đá",
+    "col": 1,
+    "row": 1,
+    "nanobana_prompt": "A cute 2D game UI icon of a traditional stone oven with fire inside, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "duck_roasted",
+    "en": "Roasted Peking Duck",
+    "vi": "Vịt quay thành phẩm",
+    "col": 2,
+    "row": 1,
+    "nanobana_prompt": "A cute 2D game UI icon of a whole crispy golden-brown roasted duck, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "duck_sliced",
+    "en": "Sliced Duck Skin",
+    "vi": "Da vịt thái lát",
+    "col": 3,
+    "row": 1,
+    "nanobana_prompt": "A cute 2D game UI icon of thin crispy slices of roasted duck skin on a plate, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "duck_pancake",
+    "en": "Spring Pancakes",
+    "vi": "Bánh tráng mỏng",
+    "col": 0,
+    "row": 2,
+    "nanobana_prompt": "A cute 2D game UI icon of a stack of thin white steamed pancakes, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "duck_hoisin",
+    "en": "Hoisin Sauce",
+    "vi": "Sốt tương đen",
+    "col": 1,
+    "row": 2,
+    "nanobana_prompt": "A cute 2D game UI icon of a small bowl of thick dark hoisin sauce, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "duck_cucumber",
+    "en": "Cucumber Strips",
+    "vi": "Dưa leo thái sợi",
+    "col": 2,
+    "row": 2,
+    "nanobana_prompt": "A cute 2D game UI icon of fresh green cucumber strips, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "duck_scallion",
+    "en": "Scallion White",
+    "vi": "Đầu hành lá",
+    "col": 3,
+    "row": 2,
+    "nanobana_prompt": "A cute 2D game UI icon of sliced white parts of green onions, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "duck_wrap",
+    "en": "Duck Wrap",
+    "vi": "Bánh cuốn vịt",
+    "col": 0,
+    "row": 3,
+    "nanobana_prompt": "A cute 2D game UI icon of a hand-rolled pancake filled with duck and vegetables, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "duck_soup",
+    "en": "Duck Bone Soup",
+    "vi": "Canh xương vịt",
+    "col": 1,
+    "row": 3,
+    "nanobana_prompt": "A cute 2D game UI icon of a bowl of milky white soup made from duck bones, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "duck_knife",
+    "en": "Chef's Cleaver",
+    "vi": "Dao thái thịt",
+    "col": 2,
+    "row": 3,
+    "nanobana_prompt": "A cute 2D game UI icon of a sharp Chinese kitchen cleaver, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "duck_platter",
+    "en": "Full Set Platter",
+    "vi": "Mâm vịt đầy đủ",
+    "col": 3,
+    "row": 3,
+    "nanobana_prompt": "A cute 2D game UI icon of a large platter containing all Peking duck components, flat vector art, vibrant colors, thick outlines, solid white background"
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "id": "sushi_otoro",
+    "en": "Bluefin Tuna Belly (Otoro)",
+    "vi": "Bụng cá ngừ vây xanh",
+    "col": 0,
+    "row": 0,
+    "nanobana_prompt": "A cute 2D game UI icon of a premium fatty tuna slice (Otoro) with beautiful marbling, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "sushi_uni",
+    "en": "Sea Urchin (Uni)",
+    "vi": "Cầu gai (Nhím biển)",
+    "col": 1,
+    "row": 0,
+    "nanobana_prompt": "A cute 2D game UI icon of fresh bright orange sea urchin roe (Uni), flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "sushi_wagyu",
+    "en": "A5 Wagyu Beef",
+    "vi": "Thịt bò Wagyu A5",
+    "col": 2,
+    "row": 0,
+    "nanobana_prompt": "A cute 2D game UI icon of a raw A5 Wagyu beef slice with intense white marbling, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "sushi_truffle",
+    "en": "Black Truffle",
+    "vi": "Nấm Truffle đen",
+    "col": 3,
+    "row": 0,
+    "nanobana_prompt": "A cute 2D game UI icon of a whole black truffle mushroom, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "sushi_ikura",
+    "en": "Salmon Roe (Ikura)",
+    "vi": "Trứng cá hồi",
+    "col": 0,
+    "row": 1,
+    "nanobana_prompt": "A cute 2D game UI icon of shiny translucent orange salmon roe pearls, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "sushi_wasabi",
+    "en": "Fresh Wasabi Root",
+    "vi": "Rễ mù tạt tươi",
+    "col": 1,
+    "row": 1,
+    "nanobana_prompt": "A cute 2D game UI icon of a fresh green wasabi root, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "sushi_gold_leaf",
+    "en": "Edible Gold Leaf",
+    "vi": "Vàng lá ăn được",
+    "col": 2,
+    "row": 1,
+    "nanobana_prompt": "A cute 2D game UI icon of shimmering thin gold foil flakes, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "sushi_caviar",
+    "en": "Caviar",
+    "vi": "Trứng cá tầm",
+    "col": 3,
+    "row": 1,
+    "nanobana_prompt": "A cute 2D game UI icon of a small tin of black caviar with a spoon, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "sushi_anago",
+    "en": "Sea Eel (Anago)",
+    "vi": "Lươn biển",
+    "col": 0,
+    "row": 2,
+    "nanobana_prompt": "A cute 2D game UI icon of grilled sea eel fillets with sweet glaze, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "sushi_geoduck",
+    "en": "Geoduck",
+    "vi": "Tu hài",
+    "col": 1,
+    "row": 2,
+    "nanobana_prompt": "A cute 2D game UI icon of fresh sliced geoduck clam, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "sushi_scallop",
+    "en": "Scallop",
+    "vi": "Sò điệp",
+    "col": 2,
+    "row": 2,
+    "nanobana_prompt": "A cute 2D game UI icon of a fresh white scallop in its shell, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "sushi_matsutake",
+    "en": "Matsutake Mushroom",
+    "vi": "Nấm Matsutake",
+    "col": 3,
+    "row": 2,
+    "nanobana_prompt": "A cute 2D game UI icon of a premium Matsutake mushroom, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "sushi_premium_rice",
+    "en": "Premium Rice",
+    "vi": "Cơm cao cấp",
+    "col": 0,
+    "row": 3,
+    "nanobana_prompt": "A cute 2D game UI icon of a bowl of fluffy high-quality white rice, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "sushi_red_vinegar",
+    "en": "Red Vinegar",
+    "vi": "Giấm đỏ",
+    "col": 1,
+    "row": 3,
+    "nanobana_prompt": "A cute 2D game UI icon of a bottle of traditional red sushi vinegar (Akazu), flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "sushi_aged_soy_sauce",
+    "en": "Aged Soy Sauce",
+    "vi": "Nước tương ủ",
+    "col": 2,
+    "row": 3,
+    "nanobana_prompt": "A cute 2D game UI icon of a bottle of premium aged soy sauce, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "sushi_shari_mounds",
+    "en": "Shari Mounds",
+    "vi": "Cơm nắm Shari",
+    "col": 3,
+    "row": 3,
+    "nanobana_prompt": "A cute 2D game UI icon of several small oval mounds of sushi rice on a wooden tray, flat vector art, vibrant colors, thick outlines, solid white background"
+  }
+]

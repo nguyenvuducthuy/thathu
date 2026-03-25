@@ -1,0 +1,76 @@
+{
+  "npcs": [
+    {
+      "name": "Guardian",
+      "question": "Đây là một câu hỏi rất dài\nvà nó có thể nằm trên\nnhiều dòng khác nhau?",
+      "right": "Đáp án đúng",
+      "wrong": "Đáp án sai",
+      "win": "Chúc mừng bạn!\nBạn đã vượt qua thử thách.",
+      "lose": "Thật đáng tiếc...\nHãy thử lại nhé."
+    },
+    {
+      "name": "Boss",
+      "question": "/resources/mathNote/js_1.js",
+      "right": "x = $\\frac{x^3}{2} + c$",
+      "wrong": "x = 2x",
+      "win": "Impressive.\nYou are worthy of facing me.",
+      "lose": "Too weak!\nCome back when you've studied more."
+    },
+    {
+      "name": "Ông Lão",
+      "question": "Ta có phím (keys) nhưng không có ổ khóa. Ta có khoảng cách (space) nhưng không có phòng. Ta là cái gì?",
+      "right": "Bàn phím máy tính",
+      "wrong": "Đàn Piano",
+      "win": "Một lựa chọn khôn ngoan. Đây là con đường dẫn tiếp về phía trước.",
+      "lose": "Gần đúng rồi, nhưng chưa chính xác. Hãy thử suy nghĩ theo hướng... kỹ thuật số xem."
+    },
+    {
+      "name": "Quách Tĩnh (Luyện Tập Bắn Cung)",
+      "question": "Quách Tĩnh cần bắn hạ 18 con chim điêu để bảo vệ dân làng. Anh ấy đã bắn trúng 9 con. Hỏi Quách Tĩnh còn phải bắn hạ bao nhiêu con chim điêu nữa?",
+      "right": "9 con",
+      "wrong": "11 con",
+      "win": "Thiện xạ! Ngươi có tố chất của một đại hiệp đấy.",
+      "lose": "Ngươi cần tập trung hơn vào mục tiêu phía trước."
+    },
+    {
+      "name": "Elsa (Xây Tháp Băng)",
+      "question": "Elsa muốn xây một cầu thang băng dẫn lên lâu đài. Cứ 1 mét cầu thang cần 5 khối băng lớn. Hỏi để xây 4 mét cầu thang, Elsa cần bao nhiêu khối băng?",
+      "right": "20 khối",
+      "wrong": "9 khối",
+      "win": "Tuyệt vời! Phép thuật toán học của bạn thật mạnh mẽ.",
+      "lose": "Ôi không, cầu thang bị thiếu hụt rồi. Thử lại nhé!"
+    },
+    {
+      "name": "Hoàng Dung (Mở Khóa Đồ Trận)",
+      "question": "Hoàng Dung đang bày trận bát quái bằng các viên đá. Hàng thứ nhất có 2 viên, hàng thứ hai có 4 viên, hàng thứ ba có 6 viên. Theo quy luật đó, hàng thứ tư cần bao nhiêu viên đá?",
+      "right": "8 viên",
+      "wrong": "10 viên",
+      "win": "Thông minh lắm! Ngươi quả thực có tư duy của Đào Hoa Đảo.",
+      "lose": "Trận đồ này quá phức tạp với ngươi rồi."
+    },
+    {
+      "name": "Người Tuyết Olaf (Chia Quà)",
+      "question": "Olaf có 12 chiếc cúc áo bằng than đá. Olaf muốn chia đều số cúc này cho 3 người bạn người tuyết nhỏ. Mỗi bạn sẽ nhận được bao nhiêu chiếc cúc?",
+      "right": "4 chiếc",
+      "wrong": "3 chiếc",
+      "win": "Bạn thật tốt bụng và công bằng!",
+      "lose": "Có bạn sẽ buồn vì không có đủ cúc áo đấy."
+    },
+    {
+      "name": "Âu Dương Phong",
+      "question": "Âu Dương Phong luyện công trong 1 giờ 15 phút. Nếu hắn bắt đầu lúc 8 giờ sáng, thì hắn sẽ kết thúc lúc mấy giờ?",
+      "right": "9 giờ 15 phút",
+      "wrong": "9 giờ 5 phút",
+      "win": "Khá khen cho tiểu tử! Ngươi tính toán thời gian rất chuẩn xác.",
+      "lose": "Ngươi đã trễ giờ rồi! Hãy nếm mùi lợi hại của Linh Xà Quyền!"
+    },
+    {
+      "name": "Marshmallow (Người khổng lồ băng)",
+      "question": "Ta đang canh giữ lâu đài. Cứ mỗi 10 bước chân, ta lại tạo ra một vết nứt. Nếu ta đi được 50 bước, có bao nhiêu vết nứt đã xuất hiện?",
+      "right": "5 vết nứt",
+      "wrong": "15 vết nứt",
+      "win": "Ngươi đã vượt qua được sự truy cản của ta. Đi tiếp đi!",
+      "lose": "Ngươi không thể vượt qua ta với cái đầu rỗng tuếch đó!"
+    }
+  ]
+}

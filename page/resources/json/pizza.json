@@ -1,0 +1,106 @@
+[
+  {
+    "id": "item_flour",
+    "en": "Flour",
+    "vi": "Bột mì",
+    "col": 0,
+    "row": 0,
+    "nanobana_prompt": "A cute 2D game UI icon of a paper bag of flour, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_tomato",
+    "en": "Tomato",
+    "vi": "Cà chua",
+    "col": 1,
+    "row": 0,
+    "nanobana_prompt": "A cute 2D game UI icon of a fresh red tomato with a green leaf, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_cheese",
+    "en": "Cheese",
+    "vi": "Phô mai",
+    "col": 2,
+    "row": 0,
+    "nanobana_prompt": "A cute 2D game UI icon of a slice of yellow swiss cheese with holes, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_mushroom",
+    "en": "Mushroom",
+    "vi": "Nấm",
+    "col": 3,
+    "row": 0,
+    "nanobana_prompt": "A cute 2D game UI icon of a brown champignon mushroom, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_sausage",
+    "en": "Sausage",
+    "vi": "Xúc xích",
+    "col": 0,
+    "row": 1,
+    "nanobana_prompt": "A cute 2D game UI icon of a grilled sausage, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_onion",
+    "en": "Onion",
+    "vi": "Hành tây",
+    "col": 1,
+    "row": 1,
+    "nanobana_prompt": "A cute 2D game UI icon of a whole white onion, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_bell_pepper",
+    "en": "Bell Pepper",
+    "vi": "Ớt chuông",
+    "col": 2,
+    "row": 1,
+    "nanobana_prompt": "A cute 2D game UI icon of a fresh green bell pepper, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_olive",
+    "en": "Olive",
+    "vi": "Ô-liu",
+    "col": 3,
+    "row": 1,
+    "nanobana_prompt": "A cute 2D game UI icon of black olives, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_pineapple",
+    "en": "Pineapple",
+    "vi": "Thơm/Dứa",
+    "col": 2,
+    "row": 2,
+    "nanobana_prompt": "A cute 2D game UI icon of a pineapple slice, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_pepperoni",
+    "en": "Pepperoni",
+    "vi": "Xúc xích pepperoni",
+    "col": 0,
+    "row": 2,
+    "nanobana_prompt": "A cute 2D game UI icon of a slice of pink ham, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_bacon",
+    "en": "Bacon",
+    "vi": "Thịt xông khói",
+    "col": 1,
+    "row": 2,
+    "nanobana_prompt": "A cute 2D game UI icon of a crispy bacon strip, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_basil",
+    "en": "Basil",
+    "vi": "Rau quế",
+    "col": 3,
+    "row": 2,
+    "nanobana_prompt": "A cute 2D game UI icon of green basil leaves, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_pizza",
+    "en": "Pizza",
+    "vi": "Bánh Pizza",
+    "col": 0,
+    "row": 3,
+    "nanobana_prompt": "A cute 2D game UI icon of a delicious whole pizza with pepperoni and mushrooms, flat vector art, vibrant colors, thick outlines, solid white background"
+  }
+]

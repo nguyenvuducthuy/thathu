@@ -1,0 +1,106 @@
+[
+  {
+    "id": "item_shrimp",
+    "en": "Shrimp",
+    "vi": "Con tôm",
+    "col": 0,
+    "row": 0,
+    "nanobana_prompt": "A cute 2D game UI icon of a fresh pink raw shrimp, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_squid",
+    "en": "Squid",
+    "vi": "Mực ống",
+    "col": 1,
+    "row": 0,
+    "nanobana_prompt": "A cute 2D game UI icon of a fresh raw pink squid, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_beef",
+    "en": "Beef",
+    "vi": "Thịt bò",
+    "col": 2,
+    "row": 0,
+    "nanobana_prompt": "A cute 2D game UI icon of a slice of raw marbled red beef, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_clam",
+    "en": "Clam",
+    "vi": "Nghêu",
+    "col": 3,
+    "row": 0,
+    "nanobana_prompt": "A cute 2D game UI icon of a fresh clam in its open shell, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_enoki",
+    "en": "Enoki Mushroom",
+    "vi": "Nấm kim châm",
+    "col": 0,
+    "row": 1,
+    "nanobana_prompt": "A cute 2D game UI icon of a bundle of white enoki mushrooms, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_chili",
+    "en": "Chili",
+    "vi": "Trái ớt",
+    "col": 1,
+    "row": 1,
+    "nanobana_prompt": "A cute 2D game UI icon of a spicy red chili pepper, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_lime",
+    "en": "Lime",
+    "vi": "Trái chanh",
+    "col": 2,
+    "row": 1,
+    "nanobana_prompt": "A cute 2D game UI icon of a fresh green lime cut in half, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_tomato",
+    "en": "Tomato",
+    "vi": "Cà chua",
+    "col": 3,
+    "row": 1,
+    "nanobana_prompt": "A cute 2D game UI icon of a fresh red tomato, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_tofu",
+    "en": "Tofu",
+    "vi": "Đậu hũ",
+    "col": 0,
+    "row": 2,
+    "nanobana_prompt": "A cute 2D game UI icon of a cube of soft white tofu, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_morning_glory",
+    "en": "Water Spinach",
+    "vi": "Rau muống",
+    "col": 1,
+    "row": 2,
+    "nanobana_prompt": "A cute 2D game UI icon of a fresh bunch of green water spinach leaves, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_noodles",
+    "en": "Instant Noodles",
+    "vi": "Mì gói",
+    "col": 2,
+    "row": 2,
+    "nanobana_prompt": "A cute 2D game UI icon of a block of dry yellow instant noodles, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_lemongrass",
+    "en": "Lemongrass",
+    "vi": "Cây sả",
+    "col": 3,
+    "row": 2,
+    "nanobana_prompt": "A cute 2D game UI icon of a fresh green lemongrass stalk, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_hotpot",
+    "en": "Thai Hot Pot",
+    "vi": "Nồi lẩu Thái",
+    "col": 0,
+    "row": 3,
+    "nanobana_prompt": "A cute 2D game UI icon of a boiling Thai Tom Yum hot pot filled with shrimp and mushrooms, flat vector art, vibrant colors, thick outlines, solid white background"
+  }
+]

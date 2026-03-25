@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Daedalus ",
+    "type": "NPC",
+    "pos": {"x": -50, "y": 50},
+    "render": { "scale": 1, "tint": [255, 255, 255, 255], "pivot": [0.5, 0.8] },
+    "textures": {
+      "IDLE":   ["./resources/sprites/vrm_idle_8x6.png", 6],
+      "SOLVED": ["./resources/sprites/vrm_idle_8x6.png", 6],
+      "RUN":    ["./resources/sprites/vrm_walk_8x7.png", 7]
+    },
+    "ai": "Coro_GuardPatrol",
+    "script": "js_1",
+    "totalQuestions": 12,
+    "mathPath3D": "test",
+    "mathPathGeogebra": "paraPath",
+    "mathQuestion": "$$y=0.8x^2$$",
+    "ggbCommand_": "paraPath = Curve(t, 0.8*t^2, t, -4, 4)"
+  },
+  {
+    "name": "sushi",
+    "type": "NPC",
+    "pos": {"x": -250, "y": 50},
+    "render": { "scale": 1, "tint": [255, 255, 255, 255], "pivot": [0.5, 0.8] },
+    "textures": {
+      "IDLE":   ["./resources/sprites/tho_idle_8x6.png", 6],
+      "SOLVED": ["./resources/sprites/tho_idle_8x6.png", 6],
+      "RUN":    ["./resources/sprites/tho_walking_8x7.png", 7]
+    },
+    "ai": "Coro_GuardPatrol",
+    "script": "js_cooking",
+    "totalQuestions": 12,
+    "mathQuestion":"$$\\int \\frac{1}{\\sqrt{1-x^2}}\\dx$$",
+    "mathPathGeogebra": "heartPath",
+    "ggbCommand": "heartPath = Curve(0.4 * 16sin(t)^3, 0.4 * (13cos(t) - 5cos(2t) - 2cos(3t) - cos(4t)), t, 0, 2pi)" 
+  },
+  {
+    "name": "tom_yum",
+    "type": "NPC",
+    "pos": {"x": 200, "y": 400},
+    "render": { "scale": 1, "tint": [255, 255, 255, 255], "pivot": [0.5, 0.8] },
+    "textures": {
+      "IDLE":  ["./resources/sprites/anna1_idle_8x6.png", 6], 
+      "SOLVED":["./resources/sprites/anna1_idle_8x6.png", 6], 
+      "RUN":   ["./resources/sprites/anna1_walk_8x7.png", 7]  
+    },
+    "ai": "Coro_GuardPatrol_astar",
+    "script": "js_cooking",
+    "totalQuestions": 12,
+    "mathPathGeogebra": "paraPath",
+    "mathQuestion": "$$y=2x^2$$",
+    "ggbCommand_": "paraPath = Curve(t, 2*t^2, t, -4, 4)",
+    "patrolPath": [[30, 30], [-5, 0]]
+  },
+  {
+    "name": "ramen",
+    "type": "NPC",
+    "pos": {"x": -200, "y": 100},
+    "render": { "scale": 1, "tint": [255, 255, 255, 255], "pivot": [0.5, 0.8] },
+    "textures": {
+      "IDLE":   ["./resources/sprites/elsa1plus_idle_8x6.png", 6],
+      "SOLVED": ["./resources/sprites/elsa1plus_idle_8x6.png", 6],
+      "RUN":    ["./resources/sprites/elsa1plus_walking_8x14.png", 14]
+    },
+    "ai": "Coro_GuardPatrol_astar",
+    "script": "js_cooking",
+    "totalQuestions": 12,
+    "patrolPath": [[5, 5], [20, 5], [20, 15], [5, 15],[19,19]]
+  },
+  {
+    "name": "pizza",
+    "type": "NPC",
+    "pos": {"x": -300, "y": 200},
+    "render": { "scale": 1, "tint": [255, 255, 255, 255], "pivot": [0.5, 0.8] },
+    "textures": {
+      "IDLE":   ["./resources/sprites/rua_idle_8x6.png", 6],
+      "SOLVED": ["./resources/sprites/rua_idle_8x6.png", 6],
+      "RUN":    ["./resources/sprites/rua_walking_8x7.png", 7]
+    },
+    "ai": "Coro_GuardPatrol_astar",
+    "script": "js_cooking",
+    "totalQuestions": 12,
+    "patrolPath": [[40, 20], [-3, 10]]
+  },
+  {
+    "name": "peking_duck",
+    "type": "NPC",
+    "pos": {"x": -600, "y": 400},
+    "render": { "scale": 1, "tint": [255, 255, 255, 255], "pivot": [0.5, 0.8] },
+    "textures": {
+      "IDLE":   ["./resources/sprites/elsa1_idle_8x6.png", 6],
+      "SOLVED": ["./resources/sprites/elsa1_idle_8x6.png", 6],
+      "RUN":    ["./resources/sprites/elsa1_walking_8x7.png", 7]
+    },
+    "ai": "Coro_PatrolPath",
+    "script": "js_cooking",
+    "totalQuestions": 12,
+    "mathPathGeogebra": "paraPath",
+    "mathQuestion": "$$y=3x^2$$",
+    "ggbCommand_": "paraPath = Curve(t, 3*t^2, t, -4, 4)"
+  },
+  {
+    "name": "Athena",
+    "type": "NPC",
+    "pos": {"x": 300, "y": 200},
+    "render": { "scale": 1, "tint": [255, 255, 255, 255], "pivot": [0.5, 0.8] },
+    "textures": {
+      "IDLE":   ["./resources/sprites/suka_idle_8x6.png", 6],
+      "SOLVED": ["./resources/sprites/suka_idle_8x6.png", 6],
+      "RUN":    ["./resources/sprites/suka_walking_8x7.png", 7]
+    },
+    "ai": "Coro_GuardFollow",
+    "mathQuestion": "./resources/json/arithmetic.md",
+    "script": "js_math",
+    "totalQuestions": 2
+  }
+]

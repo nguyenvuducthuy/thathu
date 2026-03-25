@@ -1,0 +1,130 @@
+[
+  {
+    "id": "item_wheat_flour",
+    "en": "Wheat Flour",
+    "vi": "Bột mì",
+    "col": 0,
+    "row": 0,
+    "nanobana_prompt": "A cute 2D game UI icon of a bag of fine white wheat flour, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_egg",
+    "en": "Egg",
+    "vi": "Trứng",
+    "col": 1,
+    "row": 0,
+    "nanobana_prompt": "A cute 2D game UI icon of a fresh brown chicken egg, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_pork_belly",
+    "en": "Pork Belly (Chashu)",
+    "vi": "Thịt ba chỉ (Chashu)",
+    "col": 2,
+    "row": 0,
+    "nanobana_prompt": "A cute 2D game UI icon of a thick, rolled slice of cooked Chashu pork belly, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_bamboo_shoots",
+    "en": "Bamboo Shoots (Menma)",
+    "vi": "Măng khô (Menma)",
+    "col": 3,
+    "row": 0,
+    "nanobana_prompt": "A cute 2D game UI icon of thinly sliced and seasoned bamboo shoots, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_shiitake_mushroom",
+    "en": "Shiitake Mushroom",
+    "vi": "Nấm hương (Shiitake)",
+    "col": 0,
+    "row": 1,
+    "nanobana_prompt": "A cute 2D game UI icon of a whole brown shiitake mushroom cap, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_nori_seaweed",
+    "en": "Nori Seaweed",
+    "vi": "Rong biển Nori",
+    "col": 1,
+    "row": 1,
+    "nanobana_prompt": "A cute 2D game UI icon of a single dark green rectangular sheet of Nori seaweed, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_green_onion",
+    "en": "Green Onion (Negi)",
+    "vi": "Hành lá (Negi)",
+    "col": 2,
+    "row": 1,
+    "nanobana_prompt": "A cute 2D game UI icon of a bunch of fresh green onions, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_garlic",
+    "en": "Garlic",
+    "vi": "Tỏi",
+    "col": 3,
+    "row": 1,
+    "nanobana_prompt": "A cute 2D game UI icon of a whole white garlic bulb, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_ginger",
+    "en": "Ginger",
+    "vi": "Gừng",
+    "col": 0,
+    "row": 2,
+    "nanobana_prompt": "A cute 2D game UI icon of a piece of raw yellow ginger root, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_katsuobushi",
+    "en": "Katsuobushi",
+    "vi": "Cá ngừ bào",
+    "col": 1,
+    "row": 2,
+    "nanobana_prompt": "A cute 2D game UI icon of thin, wispy bonito flakes, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_soy_sauce",
+    "en": "Soy Sauce",
+    "vi": "Nước tương",
+    "col": 2,
+    "row": 2,
+    "nanobana_prompt": "A cute 2D game UI icon of a small dark glass bottle of soy sauce with a red cap, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_mirin",
+    "en": "Mirin",
+    "vi": "Rượu nấu ăn Mirin",
+    "col": 3,
+    "row": 2,
+    "nanobana_prompt": "A cute 2D game UI icon of a tall clear glass bottle of Mirin cooking wine, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_miso_paste",
+    "en": "Miso Paste",
+    "vi": "Tương Miso",
+    "col": 0,
+    "row": 3,
+    "nanobana_prompt": "A cute 2D game UI icon of a lump of brownish-yellow fermented soybean paste in a small bowl, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_corn_kernels",
+    "en": "Corn Kernels",
+    "vi": "Ngô hạt",
+    "col": 1,
+    "row": 3,
+    "nanobana_prompt": "A cute 2D game UI icon of scattered cooked yellow corn kernels, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_black_pepper",
+    "en": "Black Pepper",
+    "vi": "Tiêu đen",
+    "col": 2,
+    "row": 3,
+    "nanobana_prompt": "A cute 2D game UI icon of whole black peppercorns in a tiny dish, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_chicken_broth",
+    "en": "Chicken Broth",
+    "vi": "Nước dùng gà",
+    "col": 3,
+    "row": 3,
+    "nanobana_prompt": "A cute 2D game UI icon of golden-brown chicken stock in a clear glass bottle, flat vector art, vibrant colors, thick outlines, solid white background"
+  }
+]
