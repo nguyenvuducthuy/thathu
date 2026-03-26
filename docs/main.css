@@ -18,6 +18,18 @@ body {
   .column-right{ float: right; width: 50.0%; }
 }
 
+/* Trạng thái mặc định - Cái Bút (Pen) */
+body.game-cursor {
+  /* 0 32: Có nghĩa là điểm chạm (click) nằm ở góc dưới bên trái của ảnh 32x32 */
+  cursor: url(assets/images/dee29cd80d98cabd013bf944447c0500.png) 8 8, auto;
+}
+
+/* Trạng thái khi nhấn chuột phải - Cái Thùng (Bucket) */
+body.game-cursor.mode-bucket {
+  /* 16 16: Điểm chạm nằm ở chính giữa ảnh */
+  cursor: url(assets/images/1db1820ce5d01ac7b7569de9b706ded6.png) 16 16, auto;
+}
+
 .dragable{
   /* -webkit-user-select: none;
   user-select: none; */
