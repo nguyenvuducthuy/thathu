@@ -1,4 +1,5 @@
 # Calculus
+
 - <p>The problem of finding the shortest distance from a point \(p(x, y)\) to the curve \(y = kx^2\)
     $$ D^2(x) = (x - px)^2 + (kx^2 - py)^2 $$
     Derivative: Take the derivative with respect to \(x\) and set it to 0 to find the minimum.
@@ -42,3 +43,5 @@
     $$\Delta > 0 \implies x = u + v$$
     $$\Delta <= 0 \implies x = ?$$
     </p>
+
+- Answer: <div id="answer_001" style="width:100%;"><textarea id="answer_text">

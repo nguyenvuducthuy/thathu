@@ -58,14 +58,22 @@ canvas.emscripten {
   /* height: 100%; */
   overflow: hidden;
   display: block;
-  image-rendering: optimizeSpeed;
-  image-rendering: -moz-crisp-edges;
-  image-rendering: -o-crisp-edges;
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: optimize-contrast;
-  image-rendering: crisp-edges;
-  image-rendering: pixelated;
-  -ms-interpolation-mode: nearest-neighbor;
+
+  /* image-rendering: optimizeSpeed; */
+  /* image-rendering: -moz-crisp-edges; */
+  /* image-rendering: -o-crisp-edges; */
+  /* image-rendering: -webkit-optimize-contrast; */
+  /* image-rendering: optimize-contrast; */
+  /* image-rendering: crisp-edges; */
+  /* image-rendering: pixelated; */
+  /* -ms-interpolation-mode: nearest-neighbor; */
+
+  image-rendering: -moz-crisp-edges;         /* Firefox */
+  image-rendering: -webkit-crisp-edges;      /* Webkit (Safari) */
+  image-rendering: pixelated;                /* Chrome, Edge chuẩn mới */
+  image-rendering: crisp-edges;              /* Tiêu chuẩn CSS tương lai */
+  /* Tắt tính năng bôi trơn màu khi người dùng bôi đen/tương tác */
+  -webkit-font-smoothing: none;
 }
 
 
@@ -165,6 +173,25 @@ math {
 
 #answer_text {
   width: 100%;
+}
+
+#controls{
+  position: absolute;
+  top:      12%;
+  left:     0;
+  width:    100%; 
+  height:   88%;  
+  z-index:  10;
+
+  /* 4. Thẩm mỹ & Tương tác */
+  background-color: rgba(214, 181, 136, 0.4); 
+  color: black; 
+
+  /* 🌟 THÊM 2 DÒNG NÀY ĐỂ LÀM MỜ BACKGROUND 🌟 */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px); /* Hỗ trợ cho trình duyệt Safari (Cực kỳ quan trọng) */
+
+  display: none;
 }
 
 #preview {
@@ -389,14 +416,14 @@ math {
   }
 
   /* Hiệu ứng rung lắc khi trả lời sai */
-@keyframes shake {
-  0%   { transform: rotate(0deg); }
-  20%  { transform: rotate(-1deg); }
-  40%  { transform: rotate(1deg); }
-  60%  { transform: rotate(-0.5deg); }
-  80%  { transform: rotate(0.5deg); }
-  100% { transform: rotate(0deg); }
-}
+  @keyframes shake {
+    0%   { transform: rotate(0deg); }
+    20%  { transform: rotate(-1deg); }
+    40%  { transform: rotate(1deg); }
+    60%  { transform: rotate(-0.5deg); }
+    80%  { transform: rotate(0.5deg); }
+    100% { transform: rotate(0deg); }
+  }
 
   .shake-effect {
     animation: shake 0.4s ease-in-out;
