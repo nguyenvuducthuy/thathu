@@ -150,7 +150,6 @@ img {
 
 canvas {
   border-radius: 30px;
-  padding: 20px;
 }
 
 math {
@@ -225,6 +224,15 @@ math {
   z-index: 1;
 }
 
+
+/* #cv_001 { */
+/*   width: 256px;  */
+/*   height: 256px;  */
+/*   margin: auto;  */
+/*   display: block;  */
+/*   border-radius: 10px; */
+/* } */
+
 #html-dialogue-box {
   /* 1. Ép hiển thị toàn màn hình */
   position: absolute;
@@ -258,266 +266,311 @@ math {
   display: none;
 }
 
-/* =========================================
-1. GIAO DIỆN HỘI THOẠI (DIALOGUE)
-========================================= */
-  #dialogue-speaker {
-    margin-top: 0; 
-    /* color: #ffcc00;  */
-    font-family: serif; 
-    font-size: 48px; 
-    border-bottom: 1px solid gray; 
-    padding-bottom: 10px;
-  }
+/* ========================================= */
+/* 1. GIAO DIỆN HỘI THOẠI (DIALOGUE)         */
+/* ========================================= */
 
-  #dialogue-text {
-    font-size: 32px; 
-    font-family: serif; 
-    max-height: 35vh; 
-    overflow-y: auto; 
-    padding-right: 15px; 
-    line-height: 1.5;
-    font-feature-settings: 'kern', 'liga', 'onum';
-  }
+#dialogue-speaker {
+  margin-top: 0; 
+  /* color: #ffcc00;  */
+  font-family: serif; 
+  font-size: 48px; 
+  border-bottom: 1px solid gray; 
+  padding-bottom: 10px;
+}
 
-  /* Tùy chỉnh thanh cuộn cực xịn cho phần thoại */
-  #dialogue-text::-webkit-scrollbar {
-    width: 8px;
-  }
-  #dialogue-text::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0.5); 
-    border-radius: 4px;
-  }
-  #dialogue-text::-webkit-scrollbar-thumb {
-    background: orange; 
-    border-radius: 4px;
-  }
-  #dialogue-text::-webkit-scrollbar-thumb:hover {
-    background: #ffcc00; 
-  }
+#dialogue-text {
+  font-size: 32px; 
+  font-family: serif; 
+  max-height: 60%; 
+  overflow-y: auto; 
+  padding-right: 15px; 
+  line-height: 1.5;
+  font-feature-settings: 'kern', 'liga', 'onum';
+}
 
-  #dialogue-choices {
-    display: flex; 
-    flex-direction: column; 
-    gap: 10px; 
-    margin-top: 20px; 
-    border-top: 1px solid gray; 
-    padding-top: 15px;
-  }
+/* Tùy chỉnh thanh cuộn cực xịn cho phần thoại */
+#dialogue-text::-webkit-scrollbar {
+  width: 8px;
+}
+#dialogue-text::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.5); 
+  border-radius: 4px;
+}
+#dialogue-text::-webkit-scrollbar-thumb {
+  background: orange; 
+  border-radius: 4px;
+}
+#dialogue-text::-webkit-scrollbar-thumb:hover {
+  background: #ffcc00; 
+}
 
-  #cv_001 {
-    width: 256px; 
-    height: 256px; 
-    margin: auto; 
-    display: block; 
-    border-radius: 10px;
-  }
+#dialogue-choices {
+  display: flex; 
+  flex-direction: column; 
+  gap: 10px; 
+  margin-top: 20px; 
+  border-top: 1px solid gray; 
+  padding-top: 15px;
+}
 
-  /* =========================================
-  2. GIAO DIỆN NHIỆM VỤ & HÀNH TRANG (RPG PANELS)
-  ========================================= */
-  /* Class dùng chung cho các bảng gỗ UI */
-  .rpg-panel {
-    position: absolute; 
-    right: 20px; 
-    width: 250px; 
-    background: rgba(44, 30, 20, 0.85); 
-    border: 3px solid #634a31; 
-    border-radius: 8px; 
-    padding: 10px; 
-    z-index: 99; 
-    color: #f5f5dc; 
-    font-family: 'Georgia', serif; 
-    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-  }
+/* ========================================= */
+/* 2. GIAO DIỆN NHIỆM VỤ & HÀNH TRANG (RPG PANELS) */
+/* ========================================= */
+/* Class dùng chung cho các bảng gỗ UI */
+.rpg-panel {
+  position: absolute; 
+  right: 20px; 
+  width: 250px; 
+  background: rgba(44, 30, 20, 0.85); 
+  border: 3px solid #634a31; 
+  border-radius: 8px; 
+  padding: 10px; 
+  z-index: 99; 
+  color: #f5f5dc; 
+  font-family: 'Georgia', serif; 
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
 
-  /* Vị trí riêng biệt cho từng bảng */
-  #quest-progress-container {
-    top: 20px; 
-  }
+/* Vị trí riêng biệt cho từng bảng */
+#quest-progress-container {
+  top: 20px; 
+}
 
-  #inventory-container {
-    top: 90px; 
-  }
+#inventory-container {
+  top: 90px; 
+}
 
-  /* Định dạng tiêu đề Nhiệm vụ */
-  .quest-header {
-    display: flex; 
-    justify-content: space-between; 
-    font-size: 18px; 
-    margin-bottom: 8px; 
-    font-weight: bold; 
-    text-shadow: 1px 1px 2px black;
-  }
+/* Định dạng tiêu đề Nhiệm vụ */
+.quest-header {
+  display: flex; 
+  justify-content: space-between; 
+  font-size: 18px; 
+  margin-bottom: 8px; 
+  font-weight: bold; 
+  text-shadow: 1px 1px 2px black;
+}
 
-  /* Thanh chứa vạch tiến độ (Màu nền) */
-  .quest-track {
-    width: 100%; 
-    background: #22150c; 
-    border-radius: 5px; 
-    height: 16px; 
-    overflow: hidden; 
-    border: 1px inset #110a05; 
-    box-shadow: inset 0 2px 5px rgba(0,0,0,0.8);
-  }
+/* Thanh chứa vạch tiến độ (Màu nền) */
+.quest-track {
+  width: 100%; 
+  background: #22150c; 
+  border-radius: 5px; 
+  height: 16px; 
+  overflow: hidden; 
+  border: 1px inset #110a05; 
+  box-shadow: inset 0 2px 5px rgba(0,0,0,0.8);
+}
 
-  /* Vạch tiến độ (Màu vàng chạy) */
-  #quest-progress-fill {
-    width: 0%; 
-    height: 100%; 
-    background: linear-gradient(90deg, #d4af37, #fff68f); 
-    transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1); 
-    box-shadow: 0 0 10px #d4af37;
-  }
+/* Vạch tiến độ (Màu vàng chạy) */
+#quest-progress-fill {
+  width: 0%; 
+  height: 100%; 
+  background: linear-gradient(90deg, #d4af37, #fff68f); 
+  transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1); 
+  box-shadow: 0 0 10px #d4af37;
+}
 
-  /* Định dạng tiêu đề Hành trang */
-  .inventory-title {
-    font-size: 16px; 
-    font-weight: bold; 
-    margin-bottom: 10px; 
-    text-shadow: 1px 1px 2px black;
-  }
+/* Định dạng tiêu đề Hành trang */
+.inventory-title {
+  font-size: 16px; 
+  font-weight: bold; 
+  margin-bottom: 10px; 
+  text-shadow: 1px 1px 2px black;
+}
 
-  /* Khay chứa vật phẩm */
-  #inventory-slots {
-    display: flex; 
-    gap: 10px; 
-    justify-content: space-between;
-  }/* Định nghĩa lớp cho nút nhỏ */
+/* Khay chứa vật phẩm */
+#inventory-slots {
+  display: flex; 
+  gap: 10px; 
+  justify-content: space-between;
+}/* Định nghĩa lớp cho nút nhỏ */
 
-  .btn-small {
-    padding: 4px 10px;
-    margin: 2px;
-    font-size: 32px;
-    font-family: serif;
-    cursor: pointer;
-    background: #0000;
-    color: black;
-    /* border: 1px solid #444; */
-    border: none;
-    /* border-radius: 3px; */
-    transition: all 0.2s ease;
-    outline: none;
-    align-self: flex-start; /* Hoặc 'flex-start' nếu muốn nằm bên trái */
-    width: fit-content; /* 👈 Ép chiều rộng vừa khít với chữ */
-  }
+.btn-small {
+  padding: 4px 10px;
+  margin: 2px;
+  font-size: 32px;
+  font-family: serif;
+  cursor: pointer;
+  background: #0000;
+  color: black;
+  /* border: 1px solid #444; */
+  border: none;
+  /* border-radius: 3px; */
+  transition: all 0.2s ease;
+  outline: none;
+  align-self: flex-start; /* Hoặc 'flex-start' nếu muốn nằm bên trái */
+  width: fit-content; /* 👈 Ép chiều rộng vừa khít với chữ */
+}
 
-  /* Hiệu ứng khi di chuột qua */
-  .btn-small:hover {
-    background: #444;
-    border-color: #777;
-    transform: translateY(-1px); /* Nhích nhẹ lên tạo cảm giác click */
-  }
+/* Hiệu ứng khi di chuột qua */
+.btn-small:hover {
+  background: #444;
+  border-color: #777;
+  transform: translateY(-1px); /* Nhích nhẹ lên tạo cảm giác click */
+}
 
-  /* Hiệu ứng khi bấm vào */
-  .btn-small:active {
-    background: #111;
-    transform: translateY(0);
-  }
+/* Hiệu ứng khi bấm vào */
+.btn-small:active {
+  background: #111;
+  transform: translateY(0);
+}
 
-  /* Hiệu ứng rung lắc khi trả lời sai */
-  @keyframes shake {
-    0%   { transform: rotate(0deg); }
-    20%  { transform: rotate(-1deg); }
-    40%  { transform: rotate(1deg); }
-    60%  { transform: rotate(-0.5deg); }
-    80%  { transform: rotate(0.5deg); }
-    100% { transform: rotate(0deg); }
-  }
+/* Hiệu ứng rung lắc khi trả lời sai */
+@keyframes shake {
+  0%   { transform: rotate(0deg); }
+  20%  { transform: rotate(-1deg); }
+  40%  { transform: rotate(1deg); }
+  60%  { transform: rotate(-0.5deg); }
+  80%  { transform: rotate(0.5deg); }
+  100% { transform: rotate(0deg); }
+}
 
-  .shake-effect {
-    animation: shake 0.4s ease-in-out;
-  }
+.shake-effect {
+  animation: shake 0.4s ease-in-out;
+}
 
-  /* Style cho từng ô trống trong túi đồ */
-  .inv-slot {
-    width: 45px;
-    height: 45px;
-    background: #22150c;
-    border: 2px inset #4a3520;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: inset 0 2px 5px rgba(0,0,0,0.8);
-    transition: transform 0.2s, box-shadow 0.2s;
-  }
+/* Style cho từng ô trống trong túi đồ */
+.inv-slot {
+  width: 45px;
+  height: 45px;
+  background: #22150c;
+  border: 2px inset #4a3520;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 2px 5px rgba(0,0,0,0.8);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
 
-  /* Hiệu ứng nảy lên khi nhận đồ mới */
-  @keyframes item-pop {
-    0% { transform: scale(0); opacity: 0; }
-    70% { transform: scale(1.2); }
-    100% { transform: scale(1); opacity: 1; }
-  }
+/* Hiệu ứng nảy lên khi nhận đồ mới */
+@keyframes item-pop {
+  0% { transform: scale(0); opacity: 0; }
+  70% { transform: scale(1.2); }
+  100% { transform: scale(1); opacity: 1; }
+}
 
-  .item-icon {
-    width: 80%;
-    height: 80%;
-    object-fit: contain;
-    animation: item-pop 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    filter: drop-shadow(0px 0px 3px rgba(255, 215, 0, 0.8)); /* Viền sáng rực rỡ */
-  }
+.item-icon {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+  animation: item-pop 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  filter: drop-shadow(0px 0px 3px rgba(255, 215, 0, 0.8)); /* Viền sáng rực rỡ */
+}
 
-  /*
-   * geogebra
-   */
 
-  /* 1. KHUNG CHỨA TỔNG (Điểm neo tọa độ) */
-  #app-container {
-    position: relative; /* Bắt buộc để các lớp con dùng absolute bám vào đây */
-    width: 100vw;
-    height: 100vh;
-  }
+/* geogebra */
 
-  /* 2. LỚP BÊN DƯỚI (GeoGebra & MathJax) */
-  #question-panel {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 12; /* Số nhỏ nằm dưới */
-    pointer-events: none; 
-    /* Trang trí thêm cho đẹp */
-    /* background-color: #f0f4f8;  */
-    padding: 20px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-  }
 
-  #math-text { color:black;
-    font-size: 32px;
-    margin-bottom: 20px;
-    min-height: 60px; 
-    text-align: center;
-  }
+/* 1. KHUNG CHỨA TỔNG (Điểm neo tọa độ) */
+#app-container {
+  position: relative; /* Bắt buộc để các lớp con dùng absolute bám vào đây */
+  width: 100vw;
+  height: 100vh;
+}
 
-  #ggb-element {
-    flex: 1;           /* Lệnh này ép div tự động kéo giãn chiếm trọn không gian trống */
-    /* width: 100%; */
-    min-height: 0;     /* Cực kỳ quan trọng: Giúp flexbox không bị tràn (overflow) khi thu nhỏ màn hình */
-    position: relative;
-    /* position: absolute; */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 800px;
-    margin: 0;
-    /* pointer-events: none;  */
-    padding: 0;
-    /* z-index: 11; */
-  }
+/* 2. LỚP BÊN DƯỚI (GeoGebra & MathJax) */
+#question-panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 12; /* Số nhỏ nằm dưới */
+  pointer-events: none; 
+  /* Trang trí thêm cho đẹp */
+  /* background-color: #f0f4f8;  */
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
 
-  /* 3. LỚP BÊN TRÊN (Canvas Raylib) */
-  #drawing-panel {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 10; /* Số lớn nằm trên đè bẹp số nhỏ */
-  }
+#math-text { color:black;
+  font-size: 32px;
+  margin-bottom: 20px;
+  min-height: 60px; 
+  text-align: center;
+}
+
+#ggb-element {
+  flex: 1;           /* Lệnh này ép div tự động kéo giãn chiếm trọn không gian trống */
+  /* width: 100%; */
+  min-height: 0;     /* Cực kỳ quan trọng: Giúp flexbox không bị tràn (overflow) khi thu nhỏ màn hình */
+  position: relative;
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 800px;
+  margin: 0;
+  /* pointer-events: none;  */
+  padding: 0;
+  /* z-index: 11; */
+}
+
+/* 3. LỚP BÊN TRÊN (Canvas Raylib) */
+#drawing-panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10; /* Số lớn nằm trên đè bẹp số nhỏ */
+}
+
+/* --- BẢNG CÔNG THỨC NẤU ĂN --- */
+
+/* Khung chứa dạng Lưới (Grid) */
+.recipe-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 15px;
+}
+
+/* Nút bấm nguyên liệu */
+.recipe-item-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 12px;
+  border: 2px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  outline: none; /* Xóa viền đen mặc định của button trình duyệt */
+}
+
+/* Hiệu ứng khi di chuột vào nút (Thay thế hoàn toàn cho onmouseover/onmouseout) */
+.recipe-item-btn:hover {
+  border-color: #ff9900;
+  transform: scale(1.05);
+}
+
+/* Khung chứa hình ảnh cắt từ Spritesheet */
+.recipe-item-img {
+  background-repeat: no-repeat;
+  margin-bottom: 8px;
+}
+
+/* Chữ tiếng Anh */
+.recipe-item-en {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+/* Chữ tiếng Việt */
+.recipe-item-vi {
+  font-size: 13px;
+  color: #777;
+}
 
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.

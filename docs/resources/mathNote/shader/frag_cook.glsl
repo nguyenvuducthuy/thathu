@@ -7,6 +7,7 @@ in      vec3      v_normal;
 uniform sampler2D uMainTex;
 uniform float     u_time;
 uniform vec2      u_offset;
+uniform int       u_full;      
 out     vec4      finalColor;
 
 // https://www.shadertoy.com/view/ldXfz2
@@ -40,19 +41,21 @@ float drawPoint(vec2 p){
 
 void main(void){ 
   vec2 uv    = v_uv;
-  // 1. Thu nhỏ UV gốc xuống 1/4 (vì lưới 4x4)
-  uv *= 0.25;
+  if(u_full == 0){
+    // 1. Thu nhỏ UV gốc xuống 1/4 (vì lưới 4x4)
+    uv *= 0.25;
 
-  // 2. Dịch chuyển đến đúng ô nguyên liệu
-  // u_offset sẽ là vec2(col * 0.25, row * 0.25)
-  // Lưu ý: Nếu texture bị ngược chiều Y, bạn có thể cần: 
-  // vec2 finalUV = spriteUV + vec2(u_offset.x, 0.75 - u_offset.y);
-  // uv += u_offset;
-  // uv += vec2(u_offset.x, .75-u_offset.y);
-  uv += vec2(u_offset.x,3.-u_offset.y)*.25;
+    // 2. Dịch chuyển đến đúng ô nguyên liệu
+    // u_offset sẽ là vec2(col * 0.25, row * 0.25)
+    // Lưu ý: Nếu texture bị ngược chiều Y, bạn có thể cần: 
+    // vec2 finalUV = spriteUV + vec2(u_offset.x, 0.75 - u_offset.y);
+    // uv += u_offset;
+    // uv += vec2(u_offset.x, .75-u_offset.y);
+    uv += vec2(u_offset.x,3.-u_offset.y)*.25;
+  }
 
   vec4 out_c   = texture(uMainTex, uv);
-  // out_c = vec4(finalUV,0,1);
+  // out_c = vec4(uv,0,1);
 
   finalColor   = out_c;
 }

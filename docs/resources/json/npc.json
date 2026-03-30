@@ -36,7 +36,7 @@
   },
   {
     "name": "tom_yum",
-    "type": "NPC_",
+    "type": "NPC",
     "pos": {"x": 200, "y": 400},
     "render": { "scale": 1, "tint": [255, 255, 255, 255], "pivot": [0.5, 0.8] },
     "textures": {
@@ -54,7 +54,7 @@
   },
   {
     "name": "ramen",
-    "type": "NPC_",
+    "type": "NPC",
     "pos": {"x": -200, "y": 100},
     "render": { "scale": 1, "tint": [255, 255, 255, 255], "pivot": [0.5, 0.8] },
     "textures": {
@@ -69,7 +69,7 @@
   },
   {
     "name": "pizza",
-    "type": "NPC_",
+    "type": "NPC",
     "pos": {"x": -300, "y": 200},
     "render": { "scale": 1, "tint": [255, 255, 255, 255], "pivot": [0.5, 0.8] },
     "textures": {
@@ -84,7 +84,7 @@
   },
   {
     "name": "peking_duck",
-    "type": "NPC_",
+    "type": "NPC",
     "pos": {"x": -600, "y": 400},
     "render": { "scale": 1, "tint": [255, 255, 255, 255], "pivot": [0.5, 0.8] },
     "textures": {
@@ -101,7 +101,7 @@
   },
   {
     "name": "Athena",
-    "type": "NPC_",
+    "type": "NPC",
     "pos": {"x": 300, "y": 200},
     "render": { "scale": 1, "tint": [255, 255, 255, 255], "pivot": [0.5, 0.8] },
     "textures": {
@@ -116,7 +116,7 @@
   },
   {
     "name": "Pythagoras",
-    "type": "NPC_",
+    "type": "NPC",
     "pos": {"x": 350, "y": 250},
     "render": { "scale": 1, "tint": [255, 255, 255, 255], "pivot": [0.5, 0.8] },
     "textures": {

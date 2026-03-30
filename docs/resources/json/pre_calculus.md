@@ -45,4 +45,4 @@
     </p>
 
 - <button id="btn_001"  onclick="_updateShaderUniform(this.id)">run</button>
-
+- <canvas id="cv_001" style="width:512px;height:512px;margin:auto;display: block;"><canvas>
