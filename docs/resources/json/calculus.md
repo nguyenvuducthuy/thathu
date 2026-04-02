@@ -1,47 +1,57 @@
+<style>
+table {
+    width: 100%;
+}
+/* Đã làm đẹp lại phần UI điều khiển */
+.math-container { font-family: sans-serif; max-width: 600px; margin: auto; }
+.controls { margin-top: 15px; padding: 15px; background: #f8f9fa; border-radius: 8px; border: 1px solid #ddd; }
+.stats { display: flex; justify-content: space-between; margin-top: 10px; font-size: 1.1rem; }
+input[type=range] { width: 100%; cursor: pointer; }
+.formula { font-size: 1.5rem; margin: 15px 0; color: #222; text-align: center; }
+</style>
+
 # Calculus
 
-- <p>The problem of finding the shortest distance from a point \(p(x, y)\) to the curve \(y = kx^2\)
-    $$ D^2(x) = (x - px)^2 + (kx^2 - py)^2 $$
-    Derivative: Take the derivative with respect to \(x\) and set it to 0 to find the minimum.
-    $$2(x - px) + 2(kx^2 - py)(2kx)$$
-    $$2k^2x^3 + (1 - 2kpy)x - px$$
-    $$f'(x)=0 \implies 2k^2x^3 + (1 - 2kpy)x - px =0$$
-    This is a depressed cubic equation of the form \(x^3 + px + q = 0\). 
-    Use Cardano formula to find roots, Cardano's formula is specifically designed to solve a cubic equation that does not have an \(x^2\) term.
-    $$x^3 + px + q = 0$$
-    $$\text{Let: } x = u + v$$Substitution \(t\) into the function \(t^3 + Pt + Q = 0\):
-    $$(u+v)^3 + P(u+v) + Q = 0$$
-    $$(u^3 + v^3) + 3uv(u+v) + P(u+v) + Q = 0$$
-    Reorder element:$$(u^3 + v^3 + Q) + (3uv + P)(u+v) = 0$$
-    We have one equation with two unknowns (\(u\) and \(v\)), which means we have the freedom to impose a condition to make our lives easier.
-    We force the second term to be zero:
-    $$3uv + P = 0 \implies uv = -\frac{P}{3}$$
-    This collapses the main equation into:
-    $$u^3 + v^3 + Q = 0 \implies u^3 + v^3 = -Q$$
-    Now we have a System of Equations:
-    Sum: \(u^3 + v^3 = -Q\)
-    Product: \(u^3v^3 = (-\frac{P}{3})^3 = -\frac{P^3}{27}\)
-    We are looking for two numbers (\(u^3\) and \(v^3\)) where we know their Sum and their Product.
-    $$z^2 - (\text{Sum})z + (\text{Product}) = 0$$
-    Substitute our values:
-    $$z^2 - (-Q)z + (-\frac{P^3}{27}) = 0$$
-    $$z^2 + Qz - \frac{P^3}{27} = 0$$
-    We solve this using the standard quadratic formula (\(\frac{-b \pm \sqrt{b^2-4ac}}{2a}\)):
-    $$z = \frac{-Q \pm \sqrt{Q^2 - 4(1)(-\frac{P^3}{27})}}{2}$$
-    Bring the division by 2 inside the terms:
-    $$z = -\frac{Q}{2} \pm \sqrt{\frac{Q^2}{4} + \frac{P^3}{27}}$$
-    These two solutions for \(z\) correspond to \(u^3\) and \(v^3\).
-    The solution \(x\) is given by:
-    $$x = \sqrt[3]{-\frac{q}{2} + \sqrt{\frac{q^2}{4} + \frac{p^3}{27}}} + \sqrt[3]{-\frac{q}{2} - \sqrt{\frac{q^2}{4} + \frac{p^3}{27}}}$$
-    To make this easier to read and calculate, we usually break it down into steps involving the Discriminant (\(\Delta\)).
-    $$\newline$$
-    Step A: Calculate the Discriminant
-    $$\Delta = \frac{q^2}{4} + \frac{p^3}{27}$$
-    Step B: Calculate \(u\) and \(v\)
-    $$u = \sqrt[3]{-\frac{q}{2} + \sqrt{\Delta}}$$$$v = \sqrt[3]{-\frac{q}{2} - \sqrt{\Delta}}$$
-    Step C: The Final Root 
-    $$\Delta > 0 \implies x = u + v$$
-    $$\Delta <= 0 \implies x = ?$$
-    </p>
+## Trực quan hóa Đạo hàm $\( \frac{dy}{dx} \)$
+$$ \frac{dy}{dx} = \lim_{\Delta x \to 0} \frac{f(x + \Delta x) - f(x)}{\Delta x} $$
 
-- Answer: <div id="answer_001" style="width:100%;"><textarea id="answer_text">
+## Trực quan hóa Tích phân $\int x^2 dx$ bằng Tổng Riemann
+Diện tích thực tế dưới đường cong được định nghĩa là giới hạn của tổng diện tích các hình chữ nhật (Tổng Riemann) khi số lượng hình chữ nhật ($n$) tiến tới vô cực:
+$$\int_{a}^{b} f(x) dx = \lim_{n \to \infty} \sum_{i=1}^{n} f(x_i^*) \Delta x$$
+
+<hr style="margin: 30px 0; border: 1px solid #eee;">
+
+## Định lý Cơ bản của Giải tích (Sir Isaac Newton)
+
+Trước thế kỷ 17, các nhà toán học coi việc tìm độ dốc (tiếp tuyến) và tính diện tích dưới đường cong là hai bài toán hoàn toàn khác biệt. Phải đến khi **Isaac Newton** (và Gottfried Leibniz) xuất hiện, họ mới phát hiện ra một sự thật chấn động: **Hai phép toán này thực chất là nghịch đảo của nhau!**
+
+Định lý này được chia làm hai phần quan trọng:
+
+### Phần 1: Đạo hàm và Tích phân là hai phép toán ngược
+
+Nếu bạn có một hàm số liên tục $f(t)$ và bạn lấy diện tích tích lũy của nó từ mốc $a$ đến $x$, rồi đem đi tính đạo hàm... bạn sẽ quay về đúng hàm số ban đầu!
+
+$$\frac{d}{dx} \left( \int_{a}^{x} f(t) dt \right) = f(x)$$
+
+> **💡 Hiểu đơn giản:** Tích phân giống như hành động "bấm nút ghi hình" để tích lũy quãng đường, còn đạo hàm là hành động "tua ngược" để trả về vận tốc tức thời lúc ban đầu.
+
+### Phần 2: Công thức Newton-Leibniz (Phép màu tính toán)
+
+Nhờ định lý này, chúng ta **không cần phải cắt nhỏ diện tích thành hàng triệu hình chữ nhật Riemann** để tính tổng cực nhọc nữa. Thay vào đó, để tính diện tích dưới đường cong $f(x)$ từ $a$ đến $b$, ta chỉ cần tìm nguyên hàm $F(x)$ của nó:
+
+$$\int_{a}^{b} f(x) dx = F(b) - F(a)$$
+
+**Ví dụ thực tế:** Để tính diện tích dưới Parabol $f(x) = x^2$ từ $x=1$ đến $x=2$:
+1. Tìm nguyên hàm: $F(x) = \frac{1}{3}x^3$
+2. Lấy điểm cuối trừ điểm đầu: $F(2) - F(1) = \frac{1}{3}(2)^3 - \frac{1}{3}(1)^3 = \frac{8}{3} - \frac{1}{3} = \frac{7}{3}$
+
+**Kết quả:** Diện tích chính xác tuyệt đối là $\approx 2.333$, giải quyết xong chỉ trong 2 dòng tính toán tay!
+
+<button id="btn_derivative"  onclick="_loadCalculusLesson(this.id)">Derivative</button>
+<button id="btn_integrals"  onclick="_loadCalculusLesson(this.id)">Integrals</button>
+<div id="local-ggb-element" style="width=100%"></div>
+
+<!---->
+<!-- | preview | code | -->
+<!-- |---|---| -->
+<!-- |<canvas id="cv_001" style="width:512px;height:512px;"><canvas> | <div><div id="monaco-safe-zone"></div><button id="btn_001"  onclick="_updateShaderUniform(this.id)">run</button></div>| -->

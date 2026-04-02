@@ -1,3 +1,9 @@
+<style>
+  table {
+    width: 100%;
+  }
+</style>
+
 # Pre-Calculus
 
 - <p>The problem of finding the shortest distance from a point \(p(x, y)\) to the curve \(y = kx^2\)
@@ -44,5 +50,7 @@
     $$\Delta <= 0 \implies x = ?$$
     </p>
 
-- <button id="btn_001"  onclick="_updateShaderUniform(this.id)">run</button>
-- <canvas id="cv_001" style="width:512px;height:512px;margin:auto;display: block;"><canvas>
+| preview | code |
+|---|---|
+|<canvas id="cv_001" style="width:512px;height:512px;"><canvas> | <div><div id="monaco-safe-zone"></div><button id="btn_001"  onclick="_updateShaderUniform(this.id)">run</button></div>|
+

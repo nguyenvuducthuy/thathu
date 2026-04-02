@@ -1,21 +1,21 @@
 body {
   /* background-color:#FFFAF0; */
-  background-color: #e4d5b7;
-  font-size: 24px;
-  font-family: serif;
-  color: white;
-  line-height: 1.5;
-  margin: 0;
-  padding: none;
+  background-color:      #e4d5b7;
+  font-size:             24px;
+  font-family:           serif;
+  color:                 white;
+  line-height:           1.5;
+  margin:                0;
+  padding:               none;
   /* background-color: tan; */
   /* background-color: rgb(25, 41, 47); */
   /* background-image: url(https://w0.peakpx.com/wallpaper/894/599/HD-wallpaper-everlasting-song-kagaya-fantasy-flying-magic-fary-tales-earth.jpg); */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-size:       cover;
+  background-repeat:     no-repeat;
+  background-position:   center;
   background-blend-mode: soft-light;
-  .column-left{ float: left; width: 50.0%; }
-  .column-right{ float: right; width: 50.0%; }
+  .column-left{          float: left;  width: 50.0%; }
+  .column-right{         float: right; width: 50.0%; }
 }
 
 /* Trạng thái mặc định - Cái Bút (Pen) */
@@ -37,27 +37,27 @@ body.game-cursor.mode-bucket {
 }
 
 textarea{
-  height: 100%;
-  height: 100px;
-  width: 100%;
+  height:           100%;
+  height:           100px;
+  width:            100%;
   background-color: dimgrey;
-  color: whitesmoke;
+  color:            whitesmoke;
 }
 
 /* the canvas *must not* have any border or padding, or mouse coords will be wrong */
 canvas.emscripten {
-  border: 0px none;
+  border:           0px none;
   background-color: transparent;
-  margin: 0px;
-  padding: 0;
+  margin:           0px;
+  padding:          0;
   /* position: absolute; */
-  top: 0px;
-  left: 0px;
-  border: 0;
-  width: 100%;
+  top:              0px;
+  left:             0px;
+  border:           0;
+  width:            100%;
   /* height: 100%; */
-  overflow: hidden;
-  display: block;
+  overflow:         hidden;
+  display:          block;
 
   /* image-rendering: optimizeSpeed; */
   /* image-rendering: -moz-crisp-edges; */
@@ -110,22 +110,22 @@ canvas.emscripten {
 }
 
 h1 {
-  text-align: center;
+  text-align:  center;
   font-family: serif;
-  font-size: 88px;
+  font-size:   88px;
 }
 
 h2 {
   font-family: serif;
-  font-size: 44px;
+  font-size:   44px;
 }
 
 textarea {
-  font-family: consolas;
-  font-style: normal;
+  font-family:      consolas;
+  font-style:       normal;
   background-color: transparent;
-  font-size: 16px;
-  outline: none;
+  font-size:        16px;
+  outline:          none;
 }
 
 button {
@@ -165,8 +165,8 @@ math {
 }
 
 .utils {
-  bottom: 22px;
-  right: 22px;
+  bottom:   22px;
+  right:    22px;
   position: fixed;
 }
 
@@ -175,52 +175,52 @@ math {
 }
 
 #controls{
-  position: absolute;
-  top:      12%;
-  left:     0;
-  width:    100%; 
-  height:   88%;  
-  z-index:  10;
+  position:                absolute;
+  top:                     12%;
+  left:                    0;
+  width:                   100%;
+  height:                  88%;
+  z-index:                 10;
 
   /* 4. Thẩm mỹ & Tương tác */
-  background-color: rgba(214, 181, 136, 0.4); 
-  color: black; 
+  background-color:        rgba(214,  181, 136, 0.4);
+  color:                   black;
 
   /* 🌟 THÊM 2 DÒNG NÀY ĐỂ LÀM MỜ BACKGROUND 🌟 */
-  backdrop-filter: blur(8px);
+  backdrop-filter:         blur(8px);
   -webkit-backdrop-filter: blur(8px); /* Hỗ trợ cho trình duyệt Safari (Cực kỳ quan trọng) */
 
-  display: none;
+  display:                 none;
 }
 
 #preview {
-  position: absolute;
-  z-index: 10;
+  position:      absolute;
+  z-index:       10;
 
   /* 1. Kích hoạt tính năng kéo giãn (có thể dùng 'horizontal' hoặc 'vertical') */
-  resize: horizontal; 
+  resize:        horizontal;
 
   /* 2. Bắt buộc phải có để resize hoạt động, đồng thời hiện thanh cuộn nếu chữ quá dài */
-  overflow: auto; 
+  overflow:      auto;
 
   /* 3. (Tùy chọn) Đặt giới hạn kích thước để người dùng không kéo nó nhỏ xíu đến mức biến mất */
-  min-width: 300px;
-  min-height: 200px;
-  max-width: 95vw;
-  max-height: 95vh;
+  min-width:     300px;
+  min-height:    200px;
+  max-width:     95vw;
+  max-height:    95vh;
 
   /* 4. (Tùy chọn) Thêm một chút màu nền bán trong suốt để dễ nhìn thấy viền của khung preview đè lên canvas */
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border:        1px         solid rgba(255, 255, 255, 0.5);
   border-radius: 10px;
-  padding: 15px;
+  padding:       15px;
 }
 
 #canvas {
   /* position: absolute; */
   /* top: 0; */
-  left: 0;
-  width: 100%;
-  height: 100%;
+  left:    0;
+  width:   100%;
+  height:  100%;
   z-index: 1;
 }
 
@@ -235,35 +235,35 @@ math {
 
 #html-dialogue-box {
   /* 1. Ép hiển thị toàn màn hình */
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;  /* 100% chiều rộng màn hình */
-  height: 100vh; /* 100% chiều cao màn hình */
+  position:                absolute;
+  top:                     0;
+  left:                    0;
+  width:                   100vw;     /* 100% chiều rộng màn hình */
+  height:                  100vh;     /* 100% chiều cao màn hình */
 
   /* 2. Đảm bảo luôn nằm trên cùng (trên cả GeoGebra z-index: 10) */
-  z-index: 999; 
+  z-index:                 999;
 
   /* 3. Căn chỉnh nội dung bên trong (Ví dụ: cho vào giữa) */
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* Căn giữa theo chiều dọc */
-  align-items: center;     /* Căn giữa theo chiều ngang */
+  display:                 flex;
+  flex-direction:          column;
+  justify-content:         center;    /* Căn giữa theo chiều dọc */
+  align-items:             center;    /* Căn giữa theo chiều ngang */
 
   /* 4. Thẩm mỹ & Tương tác */
-  padding: 40px;
-  box-sizing: border-box;
-  background-color: rgba(214, 181, 136, 0.4); 
-  color: black; 
+  padding:                 40px;
+  box-sizing:              border-box;
+  background-color:        rgba(214,  181, 136, 0.4);
+  color:                   black;
 
   /* 🌟 THÊM 2 DÒNG NÀY ĐỂ LÀM MỜ BACKGROUND 🌟 */
-  backdrop-filter: blur(8px);
+  backdrop-filter:         blur(8px);
   -webkit-backdrop-filter: blur(8px); /* Hỗ trợ cho trình duyệt Safari (Cực kỳ quan trọng) */
 
   /* 5. Quan trọng: Cho phép click xuyên qua nếu cần, 
   nhưng nếu đây là hội thoại chặn game thì để mặc định */
-  pointer-events: auto; 
-  display: none;
+  pointer-events:          auto;
+  display:                 none;
 }
 
 /* ========================================= */
@@ -271,21 +271,21 @@ math {
 /* ========================================= */
 
 #dialogue-speaker {
-  margin-top: 0; 
+  margin-top:     0;
   /* color: #ffcc00;  */
-  font-family: serif; 
-  font-size: 48px; 
-  border-bottom: 1px solid gray; 
+  font-family:    serif;
+  font-size:      48px;
+  border-bottom:  1px    solid gray;
   padding-bottom: 10px;
 }
 
 #dialogue-text {
-  font-size: 32px; 
-  font-family: serif; 
-  max-height: 60%; 
-  overflow-y: auto; 
-  padding-right: 15px; 
-  line-height: 1.5;
+  font-size:             32px;
+  font-family:           serif;
+  max-height:            60%;
+  overflow-y:            auto;
+  padding-right:         15px;
+  line-height:           1.5;
   font-feature-settings: 'kern', 'liga', 'onum';
 }
 
@@ -306,12 +306,12 @@ math {
 }
 
 #dialogue-choices {
-  display: flex; 
-  flex-direction: column; 
-  gap: 10px; 
-  margin-top: 20px; 
-  border-top: 1px solid gray; 
-  padding-top: 15px;
+  display:        flex;
+  flex-direction: column;
+  gap:            10px;
+  margin-top:     20px;
+  border-top:     1px     solid gray;
+  padding-top:    15px;
 }
 
 /* ========================================= */
@@ -319,17 +319,17 @@ math {
 /* ========================================= */
 /* Class dùng chung cho các bảng gỗ UI */
 .rpg-panel {
-  position: absolute; 
-  right: 20px; 
-  width: 250px; 
-  background: rgba(44, 30, 20, 0.85); 
-  border: 3px solid #634a31; 
-  border-radius: 8px; 
-  padding: 10px; 
-  z-index: 99; 
-  color: #f5f5dc; 
-  font-family: 'Georgia', serif; 
-  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  position:      absolute;
+  right:         20px;
+  width:         250px;
+  background:    rgba(44,   30,    20,      0.85);
+  border:        3px        solid  #634a31;
+  border-radius: 8px;
+  padding:       10px;
+  z-index:       99;
+  color:         #f5f5dc;
+  font-family:   'Georgia', serif;
+  box-shadow:    0          4px    10px     rgba(0,0,0,0.5);
 }
 
 /* Vị trí riêng biệt cho từng bảng */
@@ -343,77 +343,77 @@ math {
 
 /* Định dạng tiêu đề Nhiệm vụ */
 .quest-header {
-  display: flex; 
-  justify-content: space-between; 
-  font-size: 18px; 
-  margin-bottom: 8px; 
-  font-weight: bold; 
-  text-shadow: 1px 1px 2px black;
+  display:         flex;
+  justify-content: space-between;
+  font-size:       18px;
+  margin-bottom:   8px;
+  font-weight:     bold;
+  text-shadow:     1px            1px 2px black;
 }
 
 /* Thanh chứa vạch tiến độ (Màu nền) */
 .quest-track {
-  width: 100%; 
-  background: #22150c; 
-  border-radius: 5px; 
-  height: 16px; 
-  overflow: hidden; 
-  border: 1px inset #110a05; 
-  box-shadow: inset 0 2px 5px rgba(0,0,0,0.8);
+  width:         100%;
+  background:    #22150c;
+  border-radius: 5px;
+  height:        16px;
+  overflow:      hidden;
+  border:        1px      inset #110a05;
+  box-shadow:    inset    0     2px      5px rgba(0,0,0,0.8);
 }
 
 /* Vạch tiến độ (Màu vàng chạy) */
 #quest-progress-fill {
-  width: 0%; 
-  height: 100%; 
-  background: linear-gradient(90deg, #d4af37, #fff68f); 
-  transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1); 
-  box-shadow: 0 0 10px #d4af37;
+  width:      0%;
+  height:     100%;
+  background: linear-gradient(90deg, #d4af37, #fff68f);
+  transition: width                  0.6s     cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0                      0        10px              #d4af37;
 }
 
 /* Định dạng tiêu đề Hành trang */
 .inventory-title {
-  font-size: 16px; 
-  font-weight: bold; 
-  margin-bottom: 10px; 
-  text-shadow: 1px 1px 2px black;
+  font-size:     16px;
+  font-weight:   bold;
+  margin-bottom: 10px;
+  text-shadow:   1px   1px 2px black;
 }
 
 /* Khay chứa vật phẩm */
 #inventory-slots {
-  display: flex; 
-  gap: 10px; 
+  display:         flex;
+  gap:             10px;
   justify-content: space-between;
 }/* Định nghĩa lớp cho nút nhỏ */
 
 .btn-small {
-  padding: 4px 10px;
-  margin: 2px;
-  font-size: 32px;
+  padding:     4px          10px;
+  margin:      2px;
+  font-size:   32px;
   font-family: serif;
-  cursor: pointer;
-  background: #0000;
-  color: black;
+  cursor:      pointer;
+  background:  #0000;
+  color:       black;
   /* border: 1px solid #444; */
-  border: none;
+  border:      none;
   /* border-radius: 3px; */
-  transition: all 0.2s ease;
-  outline: none;
-  align-self: flex-start; /* Hoặc 'flex-start' nếu muốn nằm bên trái */
-  width: fit-content; /* 👈 Ép chiều rộng vừa khít với chữ */
+  transition:  all          0.2s ease;
+  outline:     none;
+  align-self:  flex-start;  /* Hoặc 'flex-start' nếu muốn nằm bên trái */
+  width:       fit-content; /* 👈 Ép chiều rộng vừa khít với chữ */
 }
 
 /* Hiệu ứng khi di chuột qua */
 .btn-small:hover {
-  background: #444;
+  background:   #444;
   border-color: #777;
-  transform: translateY(-1px); /* Nhích nhẹ lên tạo cảm giác click */
+  transform:    translateY(-1px); /* Nhích nhẹ lên tạo cảm giác click */
 }
 
 /* Hiệu ứng khi bấm vào */
 .btn-small:active {
   background: #111;
-  transform: translateY(0);
+  transform:  translateY(0);
 }
 
 /* Hiệu ứng rung lắc khi trả lời sai */
@@ -432,16 +432,16 @@ math {
 
 /* Style cho từng ô trống trong túi đồ */
 .inv-slot {
-  width: 45px;
-  height: 45px;
-  background: #22150c;
-  border: 2px inset #4a3520;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
+  width:           45px;
+  height:          45px;
+  background:      #22150c;
+  border:          2px       inset #4a3520;
+  border-radius:   5px;
+  display:         flex;
+  align-items:     center;
   justify-content: center;
-  box-shadow: inset 0 2px 5px rgba(0,0,0,0.8);
-  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow:      inset     0     2px        5px rgba(0,0,0,0.8);
+  transition:      transform 0.2s, box-shadow 0.2s;
 }
 
 /* Hiệu ứng nảy lên khi nhận đồ mới */
@@ -452,11 +452,11 @@ math {
 }
 
 .item-icon {
-  width: 80%;
-  height: 80%;
+  width:      80%;
+  height:     80%;
   object-fit: contain;
-  animation: item-pop 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  filter: drop-shadow(0px 0px 3px rgba(255, 215, 0, 0.8)); /* Viền sáng rực rỡ */
+  animation:  item-pop        0.5s cubic-bezier(0.175, 0.885,    0.32, 1.275);
+  filter:     drop-shadow(0px 0px  3px                 rgba(255, 215,  0, 0.8)); /* Viền sáng rực rỡ */
 }
 
 
@@ -466,110 +466,123 @@ math {
 /* 1. KHUNG CHỨA TỔNG (Điểm neo tọa độ) */
 #app-container {
   position: relative; /* Bắt buộc để các lớp con dùng absolute bám vào đây */
-  width: 100vw;
-  height: 100vh;
+  width:    100vw;
+  height:   100vh;
 }
 
 /* 2. LỚP BÊN DƯỚI (GeoGebra & MathJax) */
 #question-panel {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 12; /* Số nhỏ nằm dưới */
-  pointer-events: none; 
+  position:       absolute;
+  top:            0;
+  left:           0;
+  width:          100%;
+  height:         100%;
+  z-index:        12;   /* Số nhỏ nằm dưới */
+  pointer-events: none;
   /* Trang trí thêm cho đẹp */
   /* background-color: #f0f4f8;  */
-  padding: 20px;
-  box-sizing: border-box;
-  display: flex;
+  padding:        20px;
+  box-sizing:     border-box;
+  display:        flex;
   flex-direction: column;
 }
 
 #math-text { color:black;
-  font-size: 32px;
+  font-size:     32px;
   margin-bottom: 20px;
-  min-height: 60px; 
-  text-align: center;
+  min-height:    60px;
+  text-align:    center;
 }
 
 #ggb-element {
-  flex: 1;           /* Lệnh này ép div tự động kéo giãn chiếm trọn không gian trống */
+  flex:       1; /* Lệnh này ép div tự động kéo giãn chiếm trọn không gian trống */
   /* width: 100%; */
-  min-height: 0;     /* Cực kỳ quan trọng: Giúp flexbox không bị tràn (overflow) khi thu nhỏ màn hình */
-  position: relative;
+  min-height: 0; /* Cực kỳ quan trọng: Giúp flexbox không bị tràn (overflow) khi thu nhỏ màn hình */
+  position:   relative;
   /* position: absolute; */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 800px;
-  margin: 0;
+  top:        0;
+  left:       0;
+  width:      100%;
+  height:     800px;
+  margin:     0;
   /* pointer-events: none;  */
-  padding: 0;
+  padding:    0;
   /* z-index: 11; */
 }
+
+#editor-container-shader{
+  min-height:    20%;
+  width:         100%;
+  height:        500px;
+}
+
+/* /* Ép buộc Monaco phải hoàn toàn trong suốt */ */
+/* .monaco-editor,  */
+/* .monaco-editor-background,  */
+/* .monaco-editor .margin { */
+/*   background-color: transparent !important; */
+/* } */
 
 /* 3. LỚP BÊN TRÊN (Canvas Raylib) */
 #drawing-panel {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 10; /* Số lớn nằm trên đè bẹp số nhỏ */
+  top:      0;
+  left:     0;
+  width:    100%;
+  height:   100%;
+  z-index:  10; /* Số lớn nằm trên đè bẹp số nhỏ */
 }
 
 /* --- BẢNG CÔNG THỨC NẤU ĂN --- */
 
 /* Khung chứa dạng Lưới (Grid) */
 .recipe-grid-container {
-  display: grid;
+  display:               grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  margin-top: 15px;
+  gap:                   10px;
+  margin-top:            15px;
 }
 
 /* Nút bấm nguyên liệu */
 .recipe-item-btn {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display:         flex;
+  flex-direction:  column;
+  align-items:     center;
   justify-content: center;
-  padding: 10px;
-  border-radius: 12px;
-  border: 2px solid #ddd;
-  background: #fff;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  outline: none; /* Xóa viền đen mặc định của button trình duyệt */
+  padding:         10px;
+  border-radius:   12px;
+  border:          2px   solid #ddd;
+  background:      #fff;
+  cursor:          pointer;
+  transition:      all   0.2s  ease;
+  box-shadow:      0     4px   6px rgba(0,0,0,0.1);
+  outline:         none; /* Xóa viền đen mặc định của button trình duyệt */
 }
 
 /* Hiệu ứng khi di chuột vào nút (Thay thế hoàn toàn cho onmouseover/onmouseout) */
 .recipe-item-btn:hover {
   border-color: #ff9900;
-  transform: scale(1.05);
+  transform:    scale(1.05);
 }
 
 /* Khung chứa hình ảnh cắt từ Spritesheet */
 .recipe-item-img {
   background-repeat: no-repeat;
-  margin-bottom: 8px;
+  margin-bottom:     8px;
 }
 
 /* Chữ tiếng Anh */
 .recipe-item-en {
-  font-weight: bold;
-  font-size: 16px;
-  color: #333;
+  font-weight:   bold;
+  font-size:     16px;
+  color:         #333;
   margin-bottom: 4px;
 }
 
 /* Chữ tiếng Việt */
 .recipe-item-vi {
   font-size: 13px;
-  color: #777;
+  color:     #777;
 }
 
 /*---------------------------------------------------------------------------------------------

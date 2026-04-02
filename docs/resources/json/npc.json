@@ -1,7 +1,7 @@
 [
   {
     "name": "Daedalus ",
-    "type": "NPC",
+    "type": "NPC_",
     "pos": {"x": -50, "y": 50},
     "render": { "scale": 1, "tint": [255, 255, 255, 255], "pivot": [0.5, 0.8] },
     "textures": {
@@ -19,7 +19,7 @@
   },
   {
     "name": "sushi",
-    "type": "NPC",
+    "type": "NPC_",
     "pos": {"x": -250, "y": 50},
     "render": { "scale": 1, "tint": [255, 255, 255, 255], "pivot": [0.5, 0.8] },
     "textures": {
@@ -36,7 +36,7 @@
   },
   {
     "name": "tom_yum",
-    "type": "NPC",
+    "type": "NPC_",
     "pos": {"x": 200, "y": 400},
     "render": { "scale": 1, "tint": [255, 255, 255, 255], "pivot": [0.5, 0.8] },
     "textures": {
@@ -54,7 +54,7 @@
   },
   {
     "name": "ramen",
-    "type": "NPC",
+    "type": "NPC_",
     "pos": {"x": -200, "y": 100},
     "render": { "scale": 1, "tint": [255, 255, 255, 255], "pivot": [0.5, 0.8] },
     "textures": {
@@ -69,7 +69,7 @@
   },
   {
     "name": "pizza",
-    "type": "NPC",
+    "type": "NPC_",
     "pos": {"x": -300, "y": 200},
     "render": { "scale": 1, "tint": [255, 255, 255, 255], "pivot": [0.5, 0.8] },
     "textures": {
@@ -84,7 +84,7 @@
   },
   {
     "name": "peking_duck",
-    "type": "NPC",
+    "type": "NPC_",
     "pos": {"x": -600, "y": 400},
     "render": { "scale": 1, "tint": [255, 255, 255, 255], "pivot": [0.5, 0.8] },
     "textures": {
@@ -101,7 +101,7 @@
   },
   {
     "name": "Athena",
-    "type": "NPC",
+    "type": "NPC_",
     "pos": {"x": 300, "y": 200},
     "render": { "scale": 1, "tint": [255, 255, 255, 255], "pivot": [0.5, 0.8] },
     "textures": {
@@ -116,7 +116,7 @@
   },
   {
     "name": "Pythagoras",
-    "type": "NPC",
+    "type": "NPC_",
     "pos": {"x": 350, "y": 250},
     "render": { "scale": 1, "tint": [255, 255, 255, 255], "pivot": [0.5, 0.8] },
     "textures": {
@@ -128,6 +128,22 @@
     "mathQuestion": "./resources/json/pre_calculus.md",
     "script": "js_shader",
     "totalQuestions": 1
+  },
+  {
+    "name": "chucai24",
+    "type": "NPC_",
+    "pos": {"x": -500, "y": 500},
+    "render": { "scale": 1, "tint": [255, 255, 255, 255], "pivot": [0.5, 0.8] },
+    "textures": {
+      "IDLE":   ["./resources/sprites/elsa1_idle_8x6.png", 6],
+      "SOLVED": ["./resources/sprites/elsa1_idle_8x6.png", 6],
+      "RUN":    ["./resources/sprites/elsa1_walking_8x7.png", 7]
+    },
+    "ai": "Coro_PatrolPath",
+    "script": "js_chucai24",
+    "totalQuestions": 24,
+    "mathPathGeogebra": "paraPath",
+    "mathQuestion": "$$y=3x^2$$",
+    "ggbCommand_": "paraPath = Curve(t, 3*t^2, t, -4, 4)"
   }
-
 ]

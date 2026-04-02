@@ -1,0 +1,194 @@
+[
+  {
+    "id": "item_apple",
+    "en": "A/Apple",
+    "vi": "A/Táo",
+    "col": 0,
+    "row": 0,
+    "nanobana_prompt": "A cute 2D game UI icon of a bubble letter 'A' next to a fresh red apple with a leaf, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_banana",
+    "en": "B/Banana",
+    "vi": "B/Chuối",
+    "col": 1,
+    "row": 0,
+    "nanobana_prompt": "A cute 2D game UI icon of a bubble letter 'B' next to a cluster of yellow bananas, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_citrus",
+    "en": "C/Citrus",
+    "vi": "C/Cam",
+    "col": 2,
+    "row": 0,
+    "nanobana_prompt": "A cute 2D game UI icon of a bubble letter 'C' next to a ripe orange, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_date",
+    "en": "D/Date",
+    "vi": "D/Chà là",
+    "col": 3,
+    "row": 0,
+    "nanobana_prompt": "A cute 2D game UI icon of a bubble letter 'D' next to a dates fruit, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_elderberry",
+    "en": "E/Elderberry",
+    "vi": "E/Cơm cháy",
+    "col": 0,
+    "row": 1,
+    "nanobana_prompt": "A cute 2D game UI icon of a bubble letter 'E' next to a cluster of elderberries, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_fig",
+    "en": "F/Fig",
+    "vi": "F/Sung",
+    "col": 1,
+    "row": 1,
+    "nanobana_prompt": "A cute 2D game UI icon of a bubble letter 'F' next to a fresh fig fruit, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_grape",
+    "en": "G/Grape",
+    "vi": "G/Nho",
+    "col": 2,
+    "row": 1,
+    "nanobana_prompt": "A cute 2D game UI icon of a bubble letter 'G' next to a cluster of purple grapes, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_honeydew",
+    "en": "H/Honeydew",
+    "vi": "H/Dưa lưới",
+    "col": 3,
+    "row": 1,
+    "nanobana_prompt": "A cute 2D game UI icon of a bubble letter 'H' next to a honeydew melon, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_icaco",
+    "en": "I/Icaco",
+    "vi": "I/Mận Icaco",
+    "col": 0,
+    "row": 2,
+    "nanobana_prompt": "A cute 2D game UI icon of a bubble letter 'I' next to an icaco fruit, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_jackfruit",
+    "en": "J/Jackfruit",
+    "vi": "J/Mít",
+    "col": 1,
+    "row": 2,
+    "nanobana_prompt": "A cute 2D game UI icon of a bubble letter 'J' next to a fresh jackfruit, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_kiwi",
+    "en": "K/Kiwi",
+    "vi": "K/Kiwi",
+    "col": 2,
+    "row": 2,
+    "nanobana_prompt": "A cute 2D game UI icon of a bubble letter 'K' next to a kiwi fruit cut in half, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_lemon",
+    "en": "L/Lemon",
+    "vi": "L/Chanh",
+    "col": 3,
+    "row": 2,
+    "nanobana_prompt": "A cute 2D game UI icon of a bubble letter 'L' next to a yellow lemon, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_mango",
+    "en": "M/Mango",
+    "vi": "M/Xoài",
+    "col": 0,
+    "row": 3,
+    "nanobana_prompt": "A cute 2D game UI icon of a bubble letter 'M' next to a ripe yellow mango, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_nectarine",
+    "en": "N/Nectarine",
+    "vi": "N/Nectarine",
+    "col": 1,
+    "row": 3,
+    "nanobana_prompt": "A cute 2D game UI icon of a bubble letter 'N' next to a nectarine fruit, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_orange",
+    "en": "O/Orange",
+    "vi": "O/Cam",
+    "col": 2,
+    "row": 3,
+    "nanobana_prompt": "A cute 2D game UI icon of a bubble letter 'O' next to a fresh orange, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_pineapple",
+    "en": "P/Pineapple",
+    "vi": "P/Dứa",
+    "col": 3,
+    "row": 3,
+    "nanobana_prompt": "A cute 2D game UI icon of a bubble letter 'P' next to a whole pineapple, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_quince",
+    "en": "Q/Quince",
+    "vi": "Q/Mộc qua",
+    "col": 0,
+    "row": 4,
+    "nanobana_prompt": "A cute 2D game UI icon of a bubble letter 'Q' next to a quince fruit, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_raspberry",
+    "en": "R/Raspberry",
+    "vi": "R/Mâm xôi",
+    "col": 1,
+    "row": 4,
+    "nanobana_prompt": "A cute 2D game UI icon of a bubble letter 'R' next to a raspberry, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_strawberry",
+    "en": "S/Strawberry",
+    "vi": "S/Dâu tây",
+    "col": 2,
+    "row": 4,
+    "nanobana_prompt": "A cute 2D game UI icon of a bubble letter 'S' next to a red strawberry with a green stem, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_tomato",
+    "en": "T/Tomato",
+    "vi": "T/Cà chua",
+    "col": 3,
+    "row": 4,
+    "nanobana_prompt": "A cute 2D game UI icon of a bubble letter 'T' next to a fresh red tomato with a leaf, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_ugli",
+    "en": "U/Ugli",
+    "vi": "U/Ugli",
+    "col": 0,
+    "row": 5,
+    "nanobana_prompt": "A cute 2D game UI icon of a bubble letter 'U' next to an ugli fruit, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_voavanga",
+    "en": "V/Voavanga",
+    "vi": "V/Voavanga",
+    "col": 1,
+    "row": 5,
+    "nanobana_prompt": "A cute 2D game UI icon of a bubble letter 'V' next to a voavanga fruit, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_watermelon",
+    "en": "W/Watermelon",
+    "vi": "W/Dưa hấu",
+    "col": 2,
+    "row": 5,
+    "nanobana_prompt": "A cute 2D game UI icon of a bubble letter 'W' next to a wedge of red watermelon, flat vector art, vibrant colors, thick outlines, solid white background"
+  },
+  {
+    "id": "item_ximenia",
+    "en": "X/Ximenia",
+    "vi": "X/Ximenia",
+    "col": 3,
+    "row": 5,
+    "nanobana_prompt": "A cute 2D game UI icon of a bubble letter 'X' next to a cluster of ximenia fruits, flat vector art, vibrant colors, thick outlines, solid white background"
+  }
+]
